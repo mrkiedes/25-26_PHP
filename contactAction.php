@@ -12,7 +12,7 @@ Message: <?php echo $_GET["message"]; ?><br /> -->
 // Variable in PHP start with a $
 // Data types are automatically assigned
 
-$myFirstVariable = 5;
+/*$myFirstVariable = 5;
 $anotherVariable = "Hello World!";
 
 $num1 = 6;
@@ -23,10 +23,12 @@ if($num1 > $num2){
     echo "num1 is bigger!";
 }else{
     echo "num2 is bigger!";
-}
+}*/
 
-
-
+// Fruit Rollups Cost $2.00
+echo "<h2>You purchased " . $_GET["fruitQuant"] . " fruit rollups</h2>";
+echo "<h2>The cost of your fruit rollups is " . $_GET["fruitQuant"] * 2 . " dollars.</h2>";
+echo "<h2>Your chosen flavor " . $_GET["fruitFlav"] . ".</h2>";
 ?>
 
 </body>
