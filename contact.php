@@ -1,8 +1,4 @@
-<html>
-<head>
-    <title>Contact Us</title>
-</head>
-<body>
+<?php include 'includes/header.php'; ?>
 <h1>Contact Us</h1>
 
 Name
@@ -22,5 +18,4 @@ Submit
 </form>
 
 
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>
